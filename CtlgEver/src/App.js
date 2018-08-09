@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button onBtnClick={() => console.log("xd")}/>
+        <Button className={"big"}onBtnClick={() => alert("xd")}/>
       </div>
     );
   }
