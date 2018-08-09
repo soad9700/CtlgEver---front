@@ -3,11 +3,10 @@ import './Button.scss';
 
 
 class Button extends Component {
+
   render() {
     return (
-      <div className="Button">
-      
-      </div>
+      <div className="button" onClick={this.props.onBtnClick}></div>
     );
   }
 }
