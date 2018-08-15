@@ -1,2 +1,19 @@
 .App {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.appBarSpace
+{
+    flex: 0 0 40px;
+    background-color: red;
+}
+
+.pageSpace
+{
+    flex: 1 1 100%;
+    background-color: blue;
 }

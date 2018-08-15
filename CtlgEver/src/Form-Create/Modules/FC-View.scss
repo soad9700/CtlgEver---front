@@ -1,0 +1,16 @@
+.FCView
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;    
+
+    overflow-y: scroll;
+    background-color: purple;
+
+    .formElementHolder
+    {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}

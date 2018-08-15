@@ -1,0 +1,10 @@
+.FCListBar
+{    
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: green;
+}

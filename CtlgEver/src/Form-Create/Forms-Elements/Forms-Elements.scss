@@ -1,0 +1,22 @@
+.clickable
+{
+    cursor: pointer;
+}
+
+.FCElement.clickable:hover
+{
+    background-color: rgba(#000000, 0.2);
+}
+
+.FCElement.clickable:active
+{
+    background-color: rgba(#000000, 0.4);
+}
+
+.FCText
+{    
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    width: auto;
+}
